@@ -158,6 +158,14 @@ There is no standard pipeline to train, validate and compare collaborative filte
 
 **Python:** ``3.8.*``
 
+To avoid having to install all dependencies below, use Docker
+
+### Using Docker image (image hosted on DockerHub)
+
+```bash
+docker push recessproject/benchscofi:<version>
+```
+
 ### 1. Dependencies
 
 #### R

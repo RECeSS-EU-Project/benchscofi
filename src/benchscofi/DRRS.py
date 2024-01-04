@@ -17,7 +17,7 @@ current_GMT = time.gmtime()
 class DRRS(BasicModel):
     def __init__(self, params=None):
         self.MCR_HOME="/usr/local/MATLAB/MATLAB_Compiler_Runtime"
-        self.DRRS_path = "http://bioinformatics.csu.edu.cn/resources/softs/DrugRepositioning/DRRS/soft/"
+        self.DRRS_path = "https://github.com/RECeSS-EU-Project/RECeSS-EU-Project.github.io/raw/main/assets/benchmark/"
         if (not os.path.exists(self.MCR_HOME)):
             raise ValueError("Please install MATLAB.")
         params = params if (params is not None) else self.default_parameters()
@@ -26,7 +26,7 @@ class DRRS(BasicModel):
         self.scalerS, self.scalerP = None, None
         self.name = "DRRS" 
         self.predictions = None
-        self.DRRS_filepath = "DRRS_L" if (self.use_linux) else "DRRS_W.exe"
+        self.DRRS_filepath = "DRRS_L"
 
     def default_parameters(self):
         params = {
