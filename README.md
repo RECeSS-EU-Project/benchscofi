@@ -1,6 +1,6 @@
 ![funding logo](https://raw.githubusercontent.com/RECeSS-EU-Project/RECeSS-EU-Project.github.io/main/assets/images/header%2BEU_rescale.jpg)
 
-[![Python Version](https://img.shields.io/badge/python-3.8-pink)](https://badge.fury.io/py/benchscofi) [![PyPI version](https://img.shields.io/pypi/v/benchscofi.svg)](https://badge.fury.io/py/benchscofi) [![Zenodo version](https://zenodo.org/badge/DOI/10.5281/zenodo.8241505.svg)](https://doi.org/10.5281/zenodo.8241505) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/recess-eu-project/benchscofi/actions/workflows/post-push-test.yml/badge.svg)](https://github.com/recess-eu-project/benchscofi/actions/workflows/post-push-test.yml) [![Codecov](https://codecov.io/github/recess-eu-project/benchscofi/coverage.svg?branch=master)](https://codecov.io/github/recess-eu-project/benchscofi?branch=master) [![JOSS](https://joss.theoj.org/papers/8c32602b0c4b97e70c7a3bca5f3eebc0/status.svg)](https://joss.theoj.org/papers/8c32602b0c4b97e70c7a3bca5f3eebc0)
+[![Python Version](https://img.shields.io/badge/python-3.8-pink)](https://badge.fury.io/py/benchscofi) [![PyPI version](https://img.shields.io/pypi/v/benchscofi.svg)](https://badge.fury.io/py/benchscofi) [![Zenodo version](https://zenodo.org/badge/DOI/10.5281/zenodo.8241505.svg)](https://doi.org/10.5281/zenodo.8241505) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/recess-eu-project/benchscofi/actions/workflows/post-push-test.yml/badge.svg)](https://github.com/recess-eu-project/benchscofi/actions/workflows/post-push-test.yml) [![Codecov](https://codecov.io/github/recess-eu-project/benchscofi/coverage.svg?branch=master)](https://codecov.io/github/recess-eu-project/benchscofi?branch=master) [![JOSS](https://joss.theoj.org/papers/10.21105/joss.05973/status.svg)](https://doi.org/10.21105/joss.05973)
 
 # BENCHmark for drug Screening with COllaborative FIltering (benchscofi) Python Package
 
@@ -31,7 +31,8 @@ This repository is under an [OSI-approved](https://opensource.org/licenses/) [MI
 If you use *benchscofi* in academic research, please cite it as follows
 
 ```
-Réda, Clémence, Jill-Jênn Vie, and Olaf Wolkenhauer. "A new standard for drug repurposing by collaborative filtering: stanscofi and benchscofi." (2023).
+Réda et al., (2024). stanscofi and benchscofi: a new standard for drug repurposing by collaborative filtering. 
+Journal of Open Source Software, 9(93), 5973, https://doi.org/10.21105/joss.05973
 ```
 
 ## Community guidelines with respect to contributions, issue reporting, and support
